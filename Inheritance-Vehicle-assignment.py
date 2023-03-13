@@ -59,7 +59,7 @@ class Cars(Vehicle):
             return False
 
     def __str__(self):
-        return "The car is " + self.make + " " + self.model + " from year " + str(self.year) + " and weights " + str(
+        return "The car is " + self.make + " " + self.model + " from year " + str(self.year) + " and weighs " + str(
             self.weight) + "\nCurrently has been driven " + str(
             self.TripsSinceMaintenance) + " times and " + (
                    "needs " if self.NeedsMaintenance else " doesn't need ") + "maintenance.\n"
@@ -90,7 +90,7 @@ class Plane(Vehicle):
             return False
 
     def __str__(self):
-        return "The plane is " + self.make + " " + self.model + " from year " + str(self.year) + " and weights " + str(
+        return "The plane is " + self.make + " " + self.model + " from year " + str(self.year) + " and weighs " + str(
             self.weight) + "\nCurrently has been driven " + str(
             self.TripsSinceMaintenance) + " times and " + (
                    "needs " if self.NeedsMaintenance else " doesn't need ") + "maintenance.\n"
